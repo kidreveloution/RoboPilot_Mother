@@ -25,9 +25,13 @@ zmqObj = zmqHeader.ZMQ_CONNECTION(
 )
 
 print(zmqObj.connectZMQ())
-
-
 zmqObj.startListenThread()
+
+zmqObj.sendMessage(RX_ID="ROUTER",msg_name="getRegister",content=None)
+#zmqObj.stopListenThread()
+
+
+
 
 # Main loop
 RX_ID = "fake_worker_1"

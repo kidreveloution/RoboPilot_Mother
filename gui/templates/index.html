@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workers Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .panel-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .buttons-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button.selected {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="panel-title">Workers Panel</div>
+    <div class="buttons-container" id="buttons-container">
+        <!-- Buttons will be dynamically added here -->
+    </div>
+    <button id="add-button" onclick="addButton()">Add Button</button>
+</div>
+
+<script>
+    let buttonCount = { button_count };
+    let selectedButton = null;
+
+    function addButton() {
+        const buttonName = `Button ${buttonCount + 1}`;
+        fetch('/create_button', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `name=${buttonName}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            const button = document.createElement('button');
+            button.className = 'button';
+            button.innerHTML = data.name;
+            button.id = data.id;
+            button.onclick = () => selectButton(button);
+            document.getElementById('buttons-container').appendChild(button);
+            buttonCount = data.count;
+        });
+    }
+
+    function selectButton(button) {
+        if (selectedButton) {
+            selectedButton.classList.remove('selected');
+        }
+        button.classList.add('selected');
+        selectedButton = button;
+
+        fetch('/select_button', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `id=${button.id}`
+        });
+    }
+</script>
+
+</body>
+</html>
