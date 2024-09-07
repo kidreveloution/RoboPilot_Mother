@@ -3,97 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workers Panel</title>
+    <title>Workers Dashboard</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .panel-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .buttons-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-        }
-        .button {
+        .worker-box {
+            border: 1px solid black;
             padding: 10px;
-            font-size: 16px;
-            background-color: #e0e0e0;
-            border: none;
-            border-radius: 5px;
+            margin: 10px;
             cursor: pointer;
         }
-        .button.selected {
-            background-color: lightblue;
+        .active {
+            background-color: lightgreen;
+        }
+        .inactive {
+            background-color: lightcoral;
         }
     </style>
 </head>
 <body>
+    <h1>Workers Dashboard</h1>
+    <div id="workers-container"></div>
 
-<div class="container">
-    <div class="panel-title">Workers Panel</div>
-    <div class="buttons-container" id="buttons-container">
-        <!-- Buttons will be dynamically added here -->
-    </div>
-    <button id="add-button" onclick="addButton()">Add Button</button>
-</div>
-
-<script>
-    let buttonCount = { button_count };
-    let selectedButton = null;
-
-    function addButton() {
-        const buttonName = `Button ${buttonCount + 1}`;
-        fetch('/create_button', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-            },
-            body: `name=${buttonName}`
-        })
-        .then(response => response.json())
-        .then(data => {
-            const button = document.createElement('button');
-            button.className = 'button';
-            button.innerHTML = data.name;
-            button.id = data.id;
-            button.onclick = () => selectButton(button);
-            document.getElementById('buttons-container').appendChild(button);
-            buttonCount = data.count;
-        });
-    }
-
-    function selectButton(button) {
-        if (selectedButton) {
-            selectedButton.classList.remove('selected');
+    <script>
+        function updateWorkers() {
+            fetch('/workers')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('workers-container');
+                    container.innerHTML = '';  // Clear the container
+                    for (const worker_id in data) {
+                        const worker = data[worker_id];
+                        const workerBox = document.createElement('div');
+                        workerBox.className = `worker-box ${worker.active ? 'active' : 'inactive'}`;
+                        workerBox.innerHTML = `<strong>${worker.name}</strong><br>GPS: ${worker.gps}`;
+                        workerBox.onclick = () => alert(`Clicked on ${worker.name}`);
+                        container.appendChild(workerBox);
+                    }
+                });
         }
-        button.classList.add('selected');
-        selectedButton = button;
 
-        fetch('/select_button', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-            },
-            body: `id=${button.id}`
-        });
-    }
-</script>
-
+        // Update workers every 5 seconds
+        setInterval(updateWorkers, 5000);
+        updateWorkers();
+    </script>
 </body>
 </html>

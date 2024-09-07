@@ -5,7 +5,6 @@ import sys
 import tkinter as tk
 from tkinter import ttk
 import time
-import tkinter_Test
 
 # Add the common directory to the system path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -27,6 +26,8 @@ def messageDigst(msg):
         createWorker(msg)
     elif msg["msg_name"] == "register_list":
         createWorkers(msg)
+    elif msg["msg_name"] == "GPS":
+        print("Updating ",msg["tx_id"]," GPS location")
 
 # Initialize the ZMQ connection
 zmqObj = zmqHeader.ZMQ_CONNECTION(
@@ -55,8 +56,6 @@ def createWorkers(msg):
         if worker == "msg_name":
             pass
         else:
-            tkinter_Test.createButton(worker)
-
             print(str(worker))
 
 getRegisteredWorkers()
