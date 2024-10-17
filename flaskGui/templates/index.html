@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Bot Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        select, button {
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .log-box {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            max-height: 150px;
+            overflow-y: auto;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bot Control Panel</h1>
+    <form action="/select_bot" method="post">
+        <label for="bot_name">Choose a bot:</label>
+        <select name="bot_name" id="bot_name">
+            {% for worker_id, obj in workers.items() %}
+                <option value="{{ obj.worker_id }}">{{ obj.worker_id }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Select Bot</button>
+    </form>
+    <div style="text-align: center;">
+        <button onclick="location.href='/connect_router'">Connect to Router</button>
+        <button onclick="location.href='/start_listen'">Start Listening</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Worker ID</th>
+                <th>IP Address</th>
+                <th>GPS</th>
+            </tr>
+        </thead>
+        <tbody id="worker-table-body">
+            {% for worker_id, obj in workers.items() %}
+                <tr>
+                    <td>{{ obj.worker_id }}</td>
+                    <td>{{ obj.ip }}</td>
+                    <td class="gps-data" data-worker-id="{{ obj.worker_id }}">{{ obj.gps }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <!-- Log Box for Print Statements -->
+    <div class="log-box">
+        <h3>Log Output</h3>
+        <pre>{{ log_output }}</pre>  <!-- Displaying the log output -->
+    </div>
+    <h2>GPS Data</h2>
+    <div id="gps-data"></div>
+    <script>
+        function updateGPSData() {
+            $.ajax({
+                url: '/get_gps_data',
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    for (let worker in data) {
+                        let lat = data[worker].lat !== null ? data[worker].lat : 'N/A';
+                        let lon = data[worker].lon !== null ? data[worker].lon : 'N/A';
+                        let gpsText = `Lat ${lat}, Lon ${lon}`;
+                        $(`.gps-data[data-worker-id="${worker}"]`).text(gpsText);
+                    }
+                },
+                error: function(error) {
+                    console.log('Error fetching GPS data:', error);
+                }
+            });
+        }
+
+        // Update GPS data every 5 seconds
+        setInterval(updateGPSData, 5000);
+
+        // Initial update
+        updateGPSData();
+    </script>
+</body>
+</html>

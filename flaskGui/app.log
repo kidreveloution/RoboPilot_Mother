@@ -1,0 +1,562 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\common\\zmqHeader.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\common\\zmqHeader.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:38:56] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:38:58] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:38:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:39:01] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:39:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:39:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:39:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:39:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:21] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:21] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:24] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:26] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:40:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:17] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:18] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:19] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:43:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\data_gen\\fakeWorker.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:08] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:09] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:44:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:10] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:12] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:13] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:45:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:50:20] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:50:22] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:50:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:50:24] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:50:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:50:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:19] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:20] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:21] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:52:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:30] "GET / HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:32] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:34] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:53:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:06] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:07] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:08] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:09] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:10] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:11] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:12] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:13] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:14] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:15] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:16] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:17] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:18] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:19] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:20] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:21] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:22] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:23] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:24] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:25] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:26] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:27] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:28] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:29] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:30] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:31] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:32] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:33] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:34] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:35] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:36] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:37] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:38] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:39] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:40] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:41] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:42] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:43] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:44] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:45] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:46] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:47] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:48] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:49] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:50] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:51] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:52] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:53] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:54] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:55] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:56] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:56] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:57] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:58] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:58] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:55:59] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:00] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:01] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:01] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:02] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:03] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:04] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:04] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:05] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:06] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:07] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:08] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:09] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:10] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:11] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:12] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:13] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:14] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:15] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:16] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:17] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:18] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:19] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:20] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:21] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:22] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:23] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:24] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:25] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:26] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:27] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:28] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:29] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:30] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:31] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:32] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:33] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:34] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:35] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:36] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:37] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:38] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:39] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:40] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:41] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:42] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:43] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:44] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:45] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:46] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:47] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:48] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:49] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:50] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:51] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:52] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:53] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:54] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:55] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:56] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:57] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:58] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:56:59] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:00] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:01] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:02] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:03] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:04] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:05] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:06] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:07] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:08] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:09] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:10] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:11] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:12] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:13] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:14] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:15] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:16] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:17] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:18] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:19] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:20] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:21] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:22] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:23] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:24] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:25] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:26] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:27] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:28] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:29] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:30] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:31] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:32] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:33] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:34] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:35] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:36] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:37] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:38] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:39] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:40] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:41] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:42] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:43] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:44] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:45] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:46] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:47] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:48] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:49] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:50] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:51] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:52] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:53] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:54] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:55] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:56] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:57] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:58] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:57:59] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:00] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:01] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:02] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:03] "[35m[1mGET /get_gps_data HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:04] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:05] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:06] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:07] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:08] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:09] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:10] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:11] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:12] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:13] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:14] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:15] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:16] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:17] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:root:Connected and registration message sent.
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:17] "[32mGET /connect_router HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:17] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:18] "[32mGET /start_listen HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:18] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:19] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:20] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:21] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:22] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:23] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:24] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:25] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:25] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:26] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:27] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:28] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:29] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:30] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:31] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:32] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:33] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:34] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:35] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:36] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:37] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:38] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:39] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:40] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:41] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:42] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:43] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:44] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:45] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:46] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:47] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:48] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:49] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:50] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:51] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:52] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:53] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:54] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:55] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:55] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:56] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:56] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:57] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:58] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:58:59] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:00] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:01] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:02] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:03] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:04] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:05] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:06] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:07] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:08] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:09] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:10] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:11] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:12] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:13] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:14] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:15] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:16] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:17] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:18] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:19] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:20] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:21] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:22] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:23] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:24] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:25] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:26] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:27] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:28] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:29] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:30] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:31] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:32] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:33] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:34] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:35] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:36] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:37] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:38] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:39] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:40] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:41] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:42] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:43] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:44] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:45] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:46] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:47] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:48] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:49] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:50] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:51] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:52] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:53] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:54] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:55] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:56] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:57] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:58] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 02:59:59] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:00] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:01] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:02] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:03] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:04] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:05] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:06] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:07] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:08] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:09] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:10] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:11] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:12] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:13] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:15] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:15] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:16] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:17] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:18] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:19] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:20] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:21] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:22] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:23] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:25] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:25] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:26] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:27] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:28] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:29] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:30] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:31] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:32] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:33] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:34] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:35] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:36] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:37] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:38] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:39] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:40] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:41] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:42] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:43] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:44] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:45] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:46] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:47] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:48] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:49] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:50] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:51] "GET /get_gps_data HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\alyel\\Documents\\GitHub\\RoboPilot_Mother\\flaskGui\\app.py', reloading
+INFO:root:Initializing ZMQ_CONNECTION with TX_ID: MOTHER, RX_ID: ROUTER, SERVER_IP: tcp://3.22.90.156:5555
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-704-519
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2024 03:00:53] "GET /get_gps_data HTTP/1.1" 200 -
