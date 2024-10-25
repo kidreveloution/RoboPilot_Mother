@@ -11,7 +11,7 @@ pygame.joystick.init()
 # Check for joysticks
 if pygame.joystick.get_count() == 0:
     print("No joystick detected")
-    sys.exit()
+    #sys.exit()
 
 # Initialize the first joystick
 joystick = pygame.joystick.Joystick(0)
