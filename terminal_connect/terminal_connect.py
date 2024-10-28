@@ -9,6 +9,7 @@ import common.messageBuilder as messageBuilder
 
 RX_ID = None
 zmqObj = None
+connectedToRouter = False
 worker_objects = {}
 
 # Initialize Pygame
@@ -104,6 +105,7 @@ def connectRouter():
     try:
         GLOBAL.zmqObj.connectZMQ()
         print("======= Connected to Router =======")
+        connectedToRouter = True
     except:
         print("======= Connection Failed =======")
 

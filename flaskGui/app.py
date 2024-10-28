@@ -8,7 +8,7 @@ import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Import functions from terminal_connect.py
-from terminal_connect.terminal_connect import handleMessage, connectRouter, startListen, startTransmission, getBots, worker_objects
+from terminal_connect.terminal_connect import handleMessage, connectRouter, startListen, startTransmission, getBots, worker_objects, connectedToRouter
 
 app = Flask(__name__)
 
@@ -80,7 +80,8 @@ def select_bot():
 @app.route('/connect_router')
 def connect_router():
     connectRouter()  # Connect to the router
-    return redirect(url_for('index'))
+    workers = {}
+    return render_template('index.html', connectedToRouter=connectedToRouter, workers = workers)
 
 @app.route('/start_listen')
 def start_listen():

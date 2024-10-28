@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <title>Bot Control</title>
     <style>
+        .banner {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -68,6 +75,8 @@
     </style>
 </head>
 <body>
+    
+    <h1>{{connectedToRouter}}</h1>
     <h1>Bot Control Panel</h1>
     <form action="/select_bot" method="post">
         <label for="bot_name">Choose a bot:</label>
@@ -101,13 +110,7 @@
         </tbody>
     </table>
     
-    <!-- Log Box for Print Statements -->
-    <div class="log-box">
-        <h3>Log Output</h3>
-        <pre>{{ log_output }}</pre>  <!-- Displaying the log output -->
-    </div>
-    <h2>GPS Data</h2>
-    <div id="gps-data"></div>
+
     <script>
         function updateGPSData() {
             $.ajax({
