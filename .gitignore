@@ -1,2 +1,4 @@
 *.log
 *.pyc
+app.log
+common/__pycache__/messageBuilder.cpython-312.pyc
