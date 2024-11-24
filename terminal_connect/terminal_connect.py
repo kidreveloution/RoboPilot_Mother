@@ -92,14 +92,25 @@ def startTransmission(bot_id):
 
 def selectBot():
     print("====== Choose Bot ======")
+    # Display available worker bots
     for worker_id, obj in worker_objects.items():
-                print(f"Worker ID: {obj.worker_id}, IP: {obj.ip}, GPS: {obj.gps}")
-    
-    bot_name = input("choose a bot: ")
+        print(f"Worker ID: {obj.worker_id}, IP: {obj.ip}, GPS: {obj.gps}")
 
-    bot_name = bot_name.upper()
-    startTransmission(bot_name)
-    # Start message stream to bot 
+    while True:
+        # Get user input
+        bot_name = input("Choose a bot (by Worker ID): ").strip()
+
+        # Check if the input matches a valid bot ID
+        if bot_name in worker_objects:
+            print("\nValid Name")
+            startTransmission(bot_name)
+            break  # Exit the loop after successfully starting the transmission
+        else:
+            print("\nInvalid Name. Please try again.")
+
+# Example call (ensure worker_objects is defined beforehand)
+# selectBot()
+
 
 def connectRouter():
     try:
@@ -126,33 +137,33 @@ def clearScreen():
     else:  # For Linux and Mac
         os.system('clear')
 
-# while True:
-#         clearScreen()  # Clear the screen before showing the menu
-#         print("\n======= Auto Pilot RC Menu =======")
-#         print("1. Connect to Router")
-#         print("2. Start Listening")
-#         print("3. Get Available Bots")
-#         print("4. Select Bot to Control")
-#         print("5. Exit")
+while True:
+        clearScreen()  # Clear the screen before showing the menu
+        print("\n======= Auto Pilot RC Menu =======")
+        print("1. Connect to Router")
+        print("2. Start Listening")
+        print("3. Get Available Bots")
+        print("4. Select Bot to Control")
+        print("5. Exit")
 
-#         choice = input("Select an option: ")
+        choice = input("Select an option: ")
 
-#         clearScreen()  # Clear the screen after making a selection
+        clearScreen()  # Clear the screen after making a selection
 
-#         if choice == '1':
-#             connectRouter()
-#         elif choice == '2':
-#             startListen()
-#         elif choice == '3':
-#             getBots()
-#         elif choice == '4':
-#             selectBot()
-#         elif choice == '5':
-#             print("Exiting program...")
-#             sys.exit(0)
-#         else:
-#             print("Invalid option. Please try again.")
-#         input("\nPress Enter to continue...")  # Wait for user before clearing screen again
+        if choice == '1':
+            connectRouter()
+        elif choice == '2':
+            startListen()
+        elif choice == '3':
+            getBots()
+        elif choice == '4':
+            selectBot()
+        elif choice == '5':
+            print("Exiting program...")
+            sys.exit(0)
+        else:
+            print("Invalid option. Please try again.")
+        input("\nPress Enter to continue...")  # Wait for user before clearing screen again
 
 
 
